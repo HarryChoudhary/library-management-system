@@ -448,10 +448,10 @@ class menu:
                                 conn.commit()
                             conn1.close()
                             messagebox.showinfo("Updated", "Book Issued sucessfully.")
-                            sender = 'rc365464@gmail.com'
+                            sender = ''
                             receivers = [em]
-                            account = 'rc365464@gmail.com'
-                            password = 'rekha12345'
+                            account = ''
+                            password = ''
 
                             message = '''From: From Person <your_email>
                                 To: To Person <their_email>
@@ -650,10 +650,10 @@ class menu:
                     messagebox.showinfo("Success", "Book Returned sucessfully.")
                     self.abookname.set(" ")
                     self.astudentt5.set(" ")
-                    sender = 'rc365464@gmail.com'
+                    sender = ''
                     receivers = [em]
-                    account = 'rc365464@gmail.com'
-                    password = 'rekha12345'
+                    account = ''
+                    password = ''
 
                     message = '''From: From Person <your_email>
                                                To: To Person <their_email>
@@ -684,10 +684,10 @@ class menu:
                     conn1.execute("select EMAIL_ID from Student_details where LIBRARYID=%s", q)
                     em = conn1.fetchone()
                     conn.commit()
-                    sender = 'rc365464@gmail.com'
+                    sender = ''
                     receivers = [em]
-                    account = 'rc365464@gmail.com'
-                    password = 'rekha12345'
+                    account = ''
+                    password = ''
                     self.fine.days
                     message = '''From: From Person <your_email>
                                                            To: To Person <their_email>
